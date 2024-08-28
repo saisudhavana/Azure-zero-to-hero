@@ -3,10 +3,10 @@
 # Variable block
 let "randomIdentifier=$RANDOM*$RANDOM"
 location="eastus"
-resourceGroup="abhi-azure-functions-rg-$randomIdentifier"
+resourceGroup="sony-azure-functions-rg-$randomIdentifier"
 tag="create-function-app-consumption-python"
-storage="abhi$randomIdentifier"
-functionApp="abhi-serverless-python-function-$randomIdentifier"
+storage="sony$randomIdentifier"
+functionApp="sony-serverless-python-function-$randomIdentifier"
 skuStorage="Standard_LRS"
 functionsVersion="4"
 pythonVersion="3.9" #Allowed values: 3.7, 3.8, and 3.9
